@@ -34,3 +34,10 @@ print(sd[2:18:2])
 # виведення сивола N разів
 a = 'a'
 print(a*7)
+
+# при необхідності великої кількості конкатенацій строк є 2 варіанти
+print("%s %s" % (sd, greet))
+print("{} {}".format(sd, greet))
+
+#https://pythonworld.ru/tipy-dannyx-v-python/stroki-literaly-strok.html
+
