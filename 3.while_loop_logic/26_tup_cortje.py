@@ -1,10 +1,11 @@
 # різниця поміж кортежами і листами полягає в тому, що в кортежах неможна змінити елементи
+# використовуються круглі дужки
 person = ('Olya', 'Vova', 18)
 print(type(person))
 print(person)
 
 # а от цей рядок не виконається і вижасть помилку TypeError: 'tuple' object does not support item assignment
-#person[1] = ('Olya', 'Vovi', 18)
+# person[1] = ('Olya', 'Vovi', 18)
 
 # звичайний приклад листа. Тут працює все гаразд
 person_list = ['Olya', 'Vovi', 22]
@@ -21,4 +22,3 @@ print(person[-1])
 
 # кількість входів теж в кортежах працює
 print(person.count('Vova'))
-

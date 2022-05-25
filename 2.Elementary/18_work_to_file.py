@@ -7,6 +7,3 @@ print(file_ovk)
 data = file_ovk.read()
 print(data)
 file_ovk.close()
-
-# створюємо файл в поточній теці
-creat_file = open('wr_txt.txt', 'w')
