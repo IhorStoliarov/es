@@ -42,7 +42,7 @@ list2 = [2, 6, 1, 3, -4, 3, -5]
 pair = []
 for x in list1:
     for y in list2:
-        cur_sum = x +y
+        cur_sum = x + y
         if cur_sum == 0:
             pair.append((x, y))
 print(pair)
