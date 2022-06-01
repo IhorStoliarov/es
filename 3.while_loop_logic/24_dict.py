@@ -6,7 +6,7 @@ players = {
     'Olya': 3481,
     'Vova': 2931,
     'Ihor': 1331
-}
+    }
 print(players)
 
 # або ще варіант

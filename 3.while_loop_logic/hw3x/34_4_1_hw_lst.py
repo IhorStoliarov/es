@@ -1,5 +1,3 @@
-import sys
-
 first_lst = [1, 5, 4, 3, 2, 6, 8, 7]
 second_lst = [3, 7, 4, 5, 8, 9, 7, 6]
 lst_x = []
