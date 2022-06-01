@@ -1,5 +1,5 @@
 # Знайти вагу карт
-current_hand = [2, 3, 4, 10, 'Q', 5]
+current_hand = ['A', 8, 4, 10, 'Q', 'K']
 weight1 = [2, 3, 4, 5, 6]
 weight0 = [7, 8, 9]
 weight_1 = [10, 'J', 'Q', 'K', 'A']
