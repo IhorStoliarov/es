@@ -10,7 +10,7 @@ for x in first_lst:
 for x in second_lst:
     if x % 2 == 0:
         joined_lst.append(x)
-print(f'Joined list {joined_lst}')
+print(f'Joined list sorted {sorted(joined_lst)}')
 
 # Те саме через List Comprehension
 first_lst = [1, 2, 3, 4, 5, 6]
