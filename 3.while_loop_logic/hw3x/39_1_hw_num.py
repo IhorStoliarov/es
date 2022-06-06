@@ -1,3 +1,4 @@
+# Гра відгадай число
 import random
 
 zag = random.randint(1, 50)
