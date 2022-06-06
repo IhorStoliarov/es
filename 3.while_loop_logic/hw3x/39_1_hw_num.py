@@ -2,7 +2,7 @@
 import random
 
 zag = random.randint(1, 50)
-print(f'Я загадав число від 0 до 50. Спробуй відгадай. В тебе 6 спроб')
+print(f'Я загадав число від 1 до 50. Спробуй відгадай. В тебе 6 спроб')
 
 counter = 0
 while counter < 6:
@@ -11,11 +11,12 @@ while counter < 6:
 
     if vid < zag:
         print('bilshe \n')
-    elif vid > zag:
+    if vid > zag:
         print('menshe \n')
-    elif counter == 1 and vid != zag:
-        print('Ти використав всі спроби. Най щастить')
-        break
-    elif vid == zag:
+    if vid == zag:
         print('Ти вгадав!!!')
         break
+    if vid != zag and counter == 6:
+        print('Ти використав всі спроби. Най щастить')
+        break
+
