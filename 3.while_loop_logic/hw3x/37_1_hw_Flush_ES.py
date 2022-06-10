@@ -5,6 +5,7 @@ hand_cards = ["J_D", "3_D"]
 
 suites = 'CHSD'
 flush = False
+
 # масть карт на столі. Вона завжди вказана як останній елемент в списку
 table_suites = [i[-1] for i in table_cards]
 # так само і з мастями на руках
