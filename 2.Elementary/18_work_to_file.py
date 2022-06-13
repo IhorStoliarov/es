@@ -28,11 +28,12 @@ print(f'Пробілів у перших 80 символах - {space_data_0_80}
 
 print('\n')
 
-up_letters = 0
-count_let_in_first_140 = data[0:140]
-for i in count_let_in_first_140:
-    if i == i.isupper():
-        up_letters += 1
+file_ovk.seek(0)
 
-print(f'Великих літер у перших 140 символах - {up_letters}')
+# намагаюся порахувати кількість великих літер у проміжку, але ніц не працює
+up_letters = 0
 print(data[0:140])
+for x in data[0:140]:
+    if x == data.title():
+        up_letters += 1
+print(f'Великих літер у перших 140 символах - {up_letters}')
