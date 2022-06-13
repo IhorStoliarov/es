@@ -1,5 +1,5 @@
 # відкрити файл в поточній теці в режимі читання в кодуванні UTF-8!!!
-file_ovk = open('ovk_choven.txt', encoding="utf-8")
+file_ovk = open('../files_hw/ovk_choven.txt', encoding="utf-8")
 # виводимо інфу про нього
 print(file_ovk)
 
@@ -29,7 +29,8 @@ print(f'Пробілів у перших 80 символах - {space_data_0_80}
 print('\n')
 
 up_letters = 0
-for i in data[0:140]:
+count_let_in_first_140 = data[0:140]
+for i in count_let_in_first_140:
     if i == i.isupper():
         up_letters += 1
 
