@@ -1,5 +1,5 @@
-def number_to_string(num):
-    return num
-    a = int(input())
-    b = int(input())
-    c = int(a, b)
+log_file = open('log_win.txt', encoding="utf-8")
+
+date_log_file = log_file.read()
+print(date_log_file)
+log_file.close()

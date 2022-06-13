@@ -17,4 +17,3 @@ for i in current_hand:
         print('віднімаємо 1')
 cards_sum = sum(cards_sum)
 print(cards_sum)
-

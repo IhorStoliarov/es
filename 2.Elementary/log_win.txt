@@ -1,0 +1,36 @@
+Log Name:      System
+Source:        Service Control Manager
+Date:          13.06.2022 16:35:17
+Event ID:      7040
+Task Category: None
+Level:         Information
+Keywords:      Classic
+User:          SYSTEM
+Computer:      everestIhor
+Description:
+Тип запуску служби Background Intelligent Transfer Service змінено з автоматичний запуск на запит про запуск.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+    <EventID Qualifiers="16384">7040</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2022-06-13T13:35:17.2697686Z" />
+    <EventRecordID>6422</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="992" ThreadID="1088" />
+    <Channel>System</Channel>
+    <Computer>everestIhor</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="param1">Background Intelligent Transfer Service</Data>
+    <Data Name="param2">автоматичний запуск</Data>
+    <Data Name="param3">запит про запуск</Data>
+    <Data Name="param4">BITS</Data>
+  </EventData>
+</Event>
