@@ -30,10 +30,11 @@ print('\n')
 
 file_ovk.seek(0)
 
-# намагаюся порахувати кількість великих літер у проміжку, але ніц не працює
 up_letters = 0
 print(data[0:140])
-for x in data[0:140]:
-    if x == data.title():
-        up_letters += 1
-print(f'Великих літер у перших 140 символах - {up_letters}')
+first140_in_data = data[0:140].split()
+for x in first140_in_data:
+    if x == x.capitalize():
+        up_letters = up_letters + 1
+        print(x)
+print(f'Слів, які починаються з великих літер у перших 140 символах - {up_letters}')
