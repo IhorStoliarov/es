@@ -6,7 +6,7 @@ print(file_ovk)
 # вивести вміст файла і закрити його
 data = file_ovk.read()
 print(data)
-#file_ovk.close()
+# file_ovk.close()
 print("\n")
 
 # виводимо довжину (кількість символів) в data
@@ -28,13 +28,47 @@ print(f'Пробілів у перших 80 символах - {space_data_0_80}
 
 print('\n')
 
+# повертаємо коретку в положення 0.
 file_ovk.seek(0)
 
-up_letters = 0
+up_word = 0
 print(data[0:140])
 first140_in_data = data[0:140].split()
 for x in first140_in_data:
     if x == x.capitalize():
-        up_letters = up_letters + 1
+        up_word += 1
         print(x)
-print(f'Слів, які починаються з великих літер у перших 140 символах - {up_letters}')
+print(f'Слів, які починаються з великих літер у перших 140 символах - {up_word}')
+
+print('\n')
+
+# Прибираємо пробіли
+rep_space = str(data[0:110])
+print(rep_space)
+print('\nПрибираємо пробіли\n')
+rep = rep_space.replace(' ', '')
+print(rep)
+
+print('\n')
+
+# Реверсуємо рядок
+print('Реверс рядка')
+rev = str(data[0:30])
+print(rev)
+rev_ers = rev[::-1]
+print(rev_ers)
+
+print('\n')
+
+# Ще один приклад
+print('ще один приклад реверсу через функцію\n')
+
+
+def reversed_string(text):
+    result = ""
+    for char in text:
+        result = char + result
+    return result
+
+
+print(reversed_string(rev))

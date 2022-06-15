@@ -1,4 +1,4 @@
-add_first_file = open('D://learning/es/files_hw/first_file.txt', mode='r+',
+add_first_file = open('C://learning/es/files_hw/first_file.txt', mode='w',
                       encoding="utf-8")
 # first line add
 print(add_first_file)

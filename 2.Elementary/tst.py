@@ -3,3 +3,7 @@ print(log_file)
 date_log_file = log_file.read()
 print(date_log_file)
 log_file.close()
+
+
+
+
