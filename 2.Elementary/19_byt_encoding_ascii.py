@@ -80,5 +80,3 @@ with open(r'C:\learning\es\files_hw\rec_jpeg.bin', 'rb') as file:
     for i in dat:
         print(int(i))
 print()
-
-
