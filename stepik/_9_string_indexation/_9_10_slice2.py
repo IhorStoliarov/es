@@ -1,0 +1,10 @@
+st_input = str(input())
+
+print(st_input[2])
+print(st_input[-2])
+print(st_input[:5])
+print(st_input[:-2])
+print(st_input[::2])
+print(st_input[1::2])
+print(st_input[::-1])
+print(st_input[::-2])
