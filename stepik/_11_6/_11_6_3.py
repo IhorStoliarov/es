@@ -1,0 +1,5 @@
+in_str = input().lower().split()
+a = in_str.count('a')
+an = in_str.count('an')
+the = in_str.count('the')
+print(f'Общее количество артиклей: {a + an + the}')
