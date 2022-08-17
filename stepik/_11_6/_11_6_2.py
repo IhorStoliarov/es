@@ -1,7 +1,5 @@
-in_str = [3, 4, 5, 2, 1]
-ma = in_str.pop(max(in_str))
-
-mi = min(in_str)
-in_str[0] = ma
-in_str[-1] = mi
-print(*in_str)
+lst = [int(i) for i in input().split()]
+x = lst.index(min(lst))
+y = lst.index(max(lst))
+lst[x], lst[y] = max(lst), min(lst)
+print(*lst)
